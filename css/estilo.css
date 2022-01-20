@@ -8,7 +8,7 @@ body {
                 url(../imagens/ruido.png),
                 linear-gradient(50deg, #ff4169,#7c26f8);
     background-attachment: fixed;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Barra de navegação
@@ -71,6 +71,10 @@ nav.navbar-transparente {
     color: black;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 /* Estrutura de conteúdos
 -------------------------------*/
 #servicos {
@@ -128,7 +132,7 @@ footer .navbar-nav a {
 }
 
 footer .navbar-nav a:hover {
-    color: #9bf0e1;
+    color: #07cc11;
     text-decoration: none;
 }
 
@@ -138,7 +142,7 @@ footer ul {
 
 footer ul li {
     float: right;
-    margin: 0 5px;
+    margin: 0px 5px;
 }
 
 /* Tipografia
